@@ -1,3 +1,3 @@
-# netwrok-packet-sniffer
+# network-packet-sniffer
 In this folder I've shared the python code and proper step by step instructions to make your very own network packet sniffer.
 A packet Sniffer developed using python v3 with scapy to capture TCP, UDP and ICMP Packets in linux .This script is tested on linux Operating System on python version3. The script captures all the incoming and outgoing packets from all interface of the machine. Once the packets are captures they are classfies into TCP, UDP and ICMP packets based on their header.Under each classification the packets are categorized into incoming and outgoing packets.Some of the information captures by Packet Sniffer is Time Stamp, Source Mac,Destination Mac,source IP Address, Destination IP Address.
